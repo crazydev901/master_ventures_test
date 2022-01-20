@@ -106,3 +106,9 @@ curl -X GET \
 
 > **Good luck and if you have any questions, please reach out to us!**
 
+## TEST-INSTRUCTIONS
+- Install dependencies - `npm i`
+- Run in develompment environment - `npm run dev`
+- Run in production environment
+  - `npm run build`
+  - `npm start`

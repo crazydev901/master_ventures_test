@@ -1,0 +1,43 @@
+.footer {
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 32px;
+  left: 32px;
+}
+
+.submit {
+  text-transform: uppercase;
+  max-width: 320px;
+}
+
+.group {
+  margin-top: 3rem;
+}
+
+.grid {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+  .submit {
+    max-width: 240px;
+  }
+  .footer {
+    justify-content: center;
+  }
+  .group-title {
+    text-align: center;
+  }
+}
